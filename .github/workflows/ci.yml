@@ -12,10 +12,6 @@ jobs:
   test:
     name: test
     runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: false
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
