@@ -16,4 +16,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Check sort order
-        run: diff -u bandnames.txt <(sort -u bandnames.txt)
+        run: diff -u bandnames.txt <(sort -u bandnames.txt -t mutable)
